@@ -1,0 +1,36 @@
+.header{
+  background: var(--gradient);
+  padding: 30rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.logo{
+  max-width: 200px;
+}
+
+.header nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header nav li{
+  display: flex;
+  gap: 32rem;
+}
+
+.header nav a{
+  display: block;
+  padding: 10rem;
+  color: white;
+  font-size: 18rem;
+  background: rgba(0,0,0,.1);
+  border-radius: 8rem;
+  transition: 0.1s;
+}
+
+.header nav a:hover{
+  background: rgba(0,0,0,.5);
+}

@@ -1,4 +1,8 @@
-
+:root{
+  --gradient: linear-gradient(135deg, #8844ee, #B07DFB);
+  --primary-darker: #8844ee;
+  --primary-lighter: #B07DFB;
+}
 
 *{
   margin: 0;
@@ -6,8 +10,13 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 6.25%;
+}
+
 body{
   font-family: "Vollkorn", Georgia, 'Times New Roman', Times, serif;
+  font-size: 16rem;
 }
 
 li{

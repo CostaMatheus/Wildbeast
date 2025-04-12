@@ -14,7 +14,7 @@ Grid Structure
   ;
 }
 
-header{
+.header{
   grid-area: header;
 }
 
