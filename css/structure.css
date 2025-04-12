@@ -1,0 +1,35 @@
+/*
+Estrutura Geral do grid
+Grid Structure
+*/
+
+.structure{
+  display: grid;
+
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-template-areas: 
+    'header header header'
+    'sidenav content advertisements'
+    'footer footer footer'
+  ;
+}
+
+header{
+  grid-area: header;
+}
+
+.sidenav{
+  grid-area: sidenav;
+}
+
+.content{
+  grid-area: myContent;
+}
+
+.advertisements{
+  grid-area: advertisements;
+}
+
+.footer{
+  grid-area: footer;
+}
