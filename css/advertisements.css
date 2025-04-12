@@ -1,0 +1,7 @@
+.advertisements{
+  background: var(--lighter-bg);
+  display: grid;
+  align-content: start;
+  padding: 32rem;
+  gap: 32rem;
+}

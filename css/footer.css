@@ -1,0 +1,22 @@
+.footer{
+  background: var(--gradient);
+  text-align: center;
+  padding: 32rem;
+  font-size: 18rem;
+}
+
+.footer p{
+  color: white;
+}
+
+.footer a{
+  font-weight: bold;
+  color: var(--primary-darker);
+  filter: brightness(.7);
+  transition: .35s ease-out;
+}
+
+.footer a:hover{
+  color: white;
+  filter: none;
+}
