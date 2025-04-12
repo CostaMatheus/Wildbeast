@@ -1,0 +1,21 @@
+.sidenav{
+  background: var(--lighter-bg);
+  padding: 32rem;
+}
+
+.sidenav li a{
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  margin: 0 auto 32rem auto;
+  background: white;
+  padding: 24rem;
+  border-radius: 8rem;
+  box-shadow: var(--shadow);
+  transition: background .35s ease-out;
+}
+
+.sidenav li a:hover{
+  background: var(--primary-lighter);
+  
+}

@@ -28,7 +28,7 @@
   font-size: 18rem;
   background: rgba(0,0,0,.1);
   border-radius: 8rem;
-  transition: 0.1s;
+  transition: 0.35s ease-out;
 }
 
 .header nav a:hover{
