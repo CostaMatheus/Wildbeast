@@ -17,5 +17,42 @@
 
 .sidenav li a:hover{
   background: var(--primary-lighter);
-  
+}
+
+@media (max-width:760px){
+  .sidenav{
+    padding: 0 32rem;
+    position: relative;
+    overflow-x: auto;
+  }
+
+  .sidenav::after{
+    content: '→';
+    position: absolute;
+    top: 4px;
+    right: 32rem;
+    color: rgba(0,0,0, .3);
+    animation: arrow .5s ease-in 0s infinite alternate;
+  }
+
+  .sidenav ul{
+    display: flex;
+  }
+
+  .sidenav li{
+    flex: 1 0 60px;
+  }
+
+  .sidenav li a{
+    margin: 32rem 32rem 32rem 0;
+    min-width: 100px;
+  }
+}
+
+@keyframes arrow {
+  from{
+    right: 32rem;
+  }to{
+    right: 24rem;
+  }
 }
