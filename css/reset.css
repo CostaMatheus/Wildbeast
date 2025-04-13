@@ -3,7 +3,8 @@
   --primary-darker: #8844ee;
   --primary-lighter: #B07DFB;
   --lighter-bg:#fafbfc;
-  --shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15)
+  --shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  --text: #626262;
 }
 
 *{
@@ -29,8 +30,19 @@ a{
   text-decoration: none;
 }
 
+p{
+  font-size: 18rem;
+  line-height: 26rem;
+  letter-spacing: -0.005rem;
+  color: var(--text)
+}
+
 img{
   display: block;
   max-width: 100%;
   border-radius: 8rem;
+}
+
+.col-wide{
+  grid-column: 1/ -1;
 }
